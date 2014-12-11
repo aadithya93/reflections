@@ -1,0 +1,12 @@
+What happens when you initialize a repository? Why do you need to do it?
+Initializing adds the .git file to the directory to indicate that the directory is a
+git repository. It needs to be done to perform other git operations like commit, log
+etc.
+
+How is the staging area different from the working directory and the repository? What
+value do you think it offers?
+Staging area acts as an intermediate bucket between the working directory and the 
+repository. The working directory consists of the latest changes made locally. 
+Repository consists of the files till the last commit(need not be up to date as in WD).
+Staging area can be used to selectively make commits from the WD to make logical sense.
+
