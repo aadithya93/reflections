@@ -10,3 +10,28 @@ repository. The working directory consists of the latest changes made locally.
 Repository consists of the files till the last commit(need not be up to date as in WD).
 Staging area can be used to selectively make commits from the WD to make logical sense.
 
+How can you use the staging area to make sure you have one commit per logical change?
+We can add only the ones that need to be a commit in the staging area before 
+committing to make the commits logical.
+
+What are some situations when branches would be helpful in keeping your history 
+organized? How would branches help?
+Branches are very helpful when we need to try some experimental stuff that is not part 
+of the main project flow. It helps by maintaining a separate track without affecting 
+the original code.
+
+How do diagrams help you visualize the branch structure?
+Pictorial representation helps to graphically visualize the flow of commits in the 
+project and helps understand the navingation between the commits.
+
+What is the result of merging two branches together? Why do we represent it in the 
+diagram the way we do?
+The changes made in two branches are combined and reflected as a single branch. It 
+is shown in the diagram that way because a new commit is created merging the two 
+branches.
+
+What are the pros and cons of Git's automatic merging vs. always doing merges manually?
+Pros:
+- Easily combine the different parts of code from multiple branches.
+Cons:
+- Will not work when there is a conflict.
