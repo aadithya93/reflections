@@ -5,3 +5,8 @@ project.
 Why might you always want to pull changes manually rather than having Git automatically stay up-to-date with your remote repository?
 Manually pulling changes lets you decide when to sync your remote with the local repository. If you are in the middle of a new update, you dont have to
 pull the changes and deal with the conflicts. But you can finish the update and later fix the conflicts. 
+
+Describe the differences between forks, clones, and branches. When would you use one instead of another?
+Branches are made within a repository. 
+Forks are copying a reposity on github into your account. The changes made in the forked repository is not reflected in the parent repository.
+Clone is making a copy of a local repository on github or vice versa. You need to perform pull and push to sync the remote and local repositories.
